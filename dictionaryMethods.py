@@ -28,3 +28,15 @@ print(spam)
 
 # first time setdefault() is called, dictionary in spam changes
 # second time won't change it, because spam already has a key named 'color'
+
+message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
+count = {}
+
+for character in message:
+    count.setdefault(character, 0)
+    count[character] = count[character] + 1
+
+print(count)
+
+# setdefault() is called to ensure that the key is in the count dictionary (with a default value of 0)
+# so that the program doesn't throw KeyError
