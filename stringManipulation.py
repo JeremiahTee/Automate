@@ -29,6 +29,7 @@ while True:
     password = input()
     if password.isalnum():  #isalnum() for alphanumeric
         break
+<<<<<<< HEAD
     print('Passwords can only have letters and numbers')
 
 # join() and split() String methods
@@ -39,3 +40,6 @@ print(' '.join(['My', 'name', 'is', 'Simon']))
 print('My name is Simon'.split())
 
 multi.split('\n')
+=======
+    print('Passwords can only have letters and numbers')
+>>>>>>> master
