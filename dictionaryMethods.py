@@ -19,4 +19,12 @@ print('I am bringing ' + str(picnicItems.get('eggs', 0)) + ' eggs.')
 # Without get() we would get a KeyError
 
 
-spam = {'name': 'Pooka', 'age': }
+spam = {'name': 'Pooka', 'age': 5}
+spam.setdefault('color', 'black')
+print(spam)
+
+spam.setdefault('color', 'white')
+print(spam)
+
+# first time setdefault() is called, dictionary in spam changes
+# second time won't change it, because spam already has a key named 'color'
