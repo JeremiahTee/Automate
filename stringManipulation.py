@@ -3,13 +3,14 @@ print(r'That is Carol\'s cat.')
 print()
 
 # multi-lines
-print('''Dear Alice,
+multi = '''Dear Alice,
 
 Eve's cat has been arrested for catnapping, cat burglary, and extortion. 
 
 Sincerely,
-Bob''')
+Bob'''
 
+print(multi)
 
 # multi-line commenting
 """This is a test Python program
@@ -29,3 +30,12 @@ while True:
     if password.isalnum():  #isalnum() for alphanumeric
         break
     print('Passwords can only have letters and numbers')
+
+# join() and split() String methods
+print(', '.join(['cats', 'rats', 'bats']))
+
+print(' '.join(['My', 'name', 'is', 'Simon']))
+
+print('My name is Simon'.split())
+
+multi.split('\n')
