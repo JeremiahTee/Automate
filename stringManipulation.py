@@ -45,4 +45,4 @@ hello = 'hello'
 print(hello.rjust(10))
 print(hello.rjust(20))
 print(hello.ljust(30))
-print(hello.rejust(20, '*'))
+print(hello.rjust(20, '*'))
