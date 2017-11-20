@@ -46,3 +46,19 @@ print(hello.rjust(10))
 print(hello.rjust(20))
 print(hello.ljust(30))
 print(hello.rjust(20, '*'))
+
+# removing whitespace
+print()
+spam = '            Hello World             '
+print('strip():')
+print(spam.strip())
+print('lstrip():')
+print(spam.lstrip())
+print('rstrip()')
+print(spam.rstrip())
+
+# stripping characters on the ends
+print()
+spam = 'SpamSpamBaconSpamEggsSpamSpam'
+spam.strip('ampS')
+print(spam)
