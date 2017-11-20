@@ -1,0 +1,1 @@
+@py.exe E:\repos\Python-Automate\pyScripts\nameOfScript.py %*
